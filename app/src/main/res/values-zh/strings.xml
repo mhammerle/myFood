@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyFood</string>
+    <string name="header_text">國家</string>
+    <string name="food_name">麵食</string>
+    <string name="country_name">中國</string>
+    <string name="flag_descriprion">"中國國旗 "</string>
+    <string name="food_description">"中餐 - 麵條 "</string>
+</resources>

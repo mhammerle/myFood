@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyFood</string>
+    <string name="header_text">الدول</string>
+    <string name="food_name">تريغو</string>
+    <string name="country_name">المملكة العربية السعودية</string>
+    <string name="food_description">"الطعام السعودي - القمح "</string>
+    <string name="flag_descriprion">"علم المملكة العربية السعودية "</string>
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/myFoodLinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/headerTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#FF2196F3"
+        android:gravity="center_vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:shadowColor="@color/colorPrimary"
+        android:text="@string/header_text"
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/font_size" />
+
+    <TextView
+        android:id="@+id/countryNameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/country_name"
+        android:textSize="@dimen/font_size" />
+
+    <ImageView
+        android:id="@+id/countryFlagImageView"
+        android:layout_width="@dimen/imge_width"
+        android:layout_height="@dimen/image_height"
+        android:layout_gravity="center"
+        android:layout_weight="2"
+        android:contentDescription="@string/flag_descriprion"
+        app:srcCompat="@drawable/flag" />
+
+    <ImageView
+        android:id="@+id/countryFoodImageView"
+        android:layout_width="@dimen/imge_width"
+        android:layout_height="@dimen/image_height"
+        android:layout_gravity="center"
+        android:layout_weight="2"
+        android:contentDescription="@string/food_description"
+        app:srcCompat="@drawable/food" />
+
+    <TextView
+        android:id="@+id/countryFoodTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/food_name"
+        android:textSize="@dimen/font_size" />
+
+</LinearLayout>

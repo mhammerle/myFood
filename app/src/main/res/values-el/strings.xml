@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyFood</string>
+    <string name="header_text">Χώρες</string>
+    <string name="food_name">τροφίμων</string>
+    <string name="country_name">Ελλάδα</string>
+    <string name="food_description">"ελληνικό φαγητό "</string>
+    <string name="flag_descriprion">"ελληνική σημαία "</string>
+</resources>
